@@ -1,0 +1,54 @@
+01-Plan-de-Pruebas/plan-de-pruebas.md
+ Plan de Pruebas - Login
+
+ 1. Objetivo
+
+Verificar el correcto funcionamiento del formulario de inicio de sesión.
+
+ 2. Alcance
+
+Se probará:
+
+- Ingreso con usuario y contraseña válidos.
+- Ingreso con usuario incorrecto.
+- Ingreso con contraseña incorrecta.
+- Campos vacíos.
+- Validaciones de los campos.
+- Mensajes de error.
+- Cierre de sesión.
+
+ 3. Fuera de alcance
+
+No se realizarán pruebas de:
+
+- Rendimiento.
+- Seguridad avanzada.
+- Pruebas de carga.
+- Pruebas de base de datos.
+
+ 4. Tipo de pruebas
+
+- Pruebas funcionales.
+- Pruebas negativas.
+- Pruebas de validación.
+- Pruebas de regresión.
+
+ 5. Ambiente de prueba
+
+Navegador: Google Chrome
+
+Sistema operativo: Windows
+
+Tipo de prueba: Manual
+
+ 6. Criterios de aceptación
+
+El usuario debe poder iniciar sesión utilizando credenciales válidas.
+
+Cuando las credenciales sean incorrectas, el sistema debe impedir el acceso y mostrar un mensaje de error.
+
+Los campos obligatorios deben mostrar una validación cuando se encuentren vacíos.
+
+ 7. Resultado esperado
+
+El formulario de login debe funcionar correctamente de acuerdo con los requisitos definidos.
